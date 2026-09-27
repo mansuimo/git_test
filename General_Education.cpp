@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>   // 新增这一行！system函数在这里
 #include "cooperation.h"   
 
 int main(){
@@ -10,5 +11,6 @@ int main(){
     printf("1 + 2 = %d\n", add(1, 2));
     printSeparator(30);
 
+    system("Pause");
     return 0;
 }
